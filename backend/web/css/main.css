@@ -1,0 +1,32 @@
+.brows_image_div{
+    width: 220px;
+    position: relative;
+}
+
+.brows_image_div span{
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    z-index: 2;
+    color:red;
+}
+
+#brows_image{
+    border-radius: 15%;
+    border:3px solid #00a65a;
+    margin-bottom: 10px;
+}
+#td_width_wrap{
+    white-space: nowrap;
+    max-width:150px;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#td_width_wrap2{
+    white-space: nowrap;
+    max-width:150px;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
